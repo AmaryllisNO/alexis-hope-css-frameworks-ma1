@@ -5,6 +5,8 @@ $colours: (
     background: #E5E5E5,
     accent: #C32C72,
     navcolour: #F4F3EE,
+    faded: #8D8D8D,
+    defaultbox: #F4F3EE, 
 );
 
 @function getColour($colour) {

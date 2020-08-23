@@ -5,15 +5,47 @@
     min-height: 250px;
     width: 250px; 
     height: 250px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.212);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.096);
     border-radius: 20px;
+    background-color: getColour(defaultbox);
 }
 
 .card__container {
     border-radius: 20px;
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 250px; 
+    min-height: 250px;
+    width: 250px; 
+    height: 250px;
+    align-content: center !important;
+    border: none;
+    background-color: getColour(defaultbox);
 }
+
+.card__body--outlined {
+    border: 4px solid getColour(accent);
+    background-color: white;
+}
+
+.card__body--filled {
+    border: 4px solid white;
+    background-color: getColour(accent);
+} 
 
 .col__container {
     padding: 15px;
     flex-grow: 0;
 }
+
+.container--spaced {
+    margin-bottom: 10em;
+}
+
+@media only screen and (max-width: 567px) {
+    .card__container {
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
+    }
+  }

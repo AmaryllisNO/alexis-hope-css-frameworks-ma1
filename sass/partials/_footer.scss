@@ -1,0 +1,36 @@
+.footer {
+    margin-top: 0;
+    box-sizing: border-box;
+    background-color: getColour(navcolour);
+} 
+
+.footer__content {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+
+}
+
+.footer__text {
+    font-family: "open sans", sans-serif;
+    color: getColour(faded);
+    font-size: 12px;
+    display: inline-flex;
+    vertical-align: middle;
+    padding: 1.3em 0 1.3em 0;
+}
+
+@media only screen and (max-width: 567px) {
+    .footer__content {
+        display: block;
+        text-align: center;
+        padding: 1.3em 0 1.3em 0;
+    }
+
+    .footer__text {
+      display: block;
+      padding: 0.3em 5em 0.3em 5em;
+    }
+  }
