@@ -1,0 +1,13 @@
+body {
+    background-color: getColour(background);
+}
+
+h1, h2, h3, h4 {
+    font-family: $primary-font;
+}
+
+h1 {
+    text-align: center;
+    padding: 2em 0 2em 0;
+    margin: 0 auto;
+}

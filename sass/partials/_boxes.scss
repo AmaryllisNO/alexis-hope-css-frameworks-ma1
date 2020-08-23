@@ -1,0 +1,19 @@
+.card__body {
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 250px; 
+    min-height: 250px;
+    width: 250px; 
+    height: 250px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.212);
+    border-radius: 20px;
+}
+
+.card__container {
+    border-radius: 20px;
+}
+
+.col__container {
+    padding: 15px;
+    flex-grow: 0;
+}

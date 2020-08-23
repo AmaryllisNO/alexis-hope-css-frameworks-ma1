@@ -1,0 +1,12 @@
+$primary-font: "open sans", sans-serif; 
+$heading-font: "Archivo Narrow", sans-serif; 
+
+$colours: (
+    background: #E5E5E5,
+    accent: #C32C72,
+    navcolour: #F4F3EE,
+);
+
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}

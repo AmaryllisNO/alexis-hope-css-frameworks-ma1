@@ -1,0 +1,20 @@
+.active {
+    color: getColour(accent); 
+    color: red;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.nav__link--active {
+    color: getColour(accent) !important; 
+}
+
+.navbar {
+    background-color: getColour(navcolour);
+}
+
+.navbar-brand {
+    font-family: $primary-font;
+}
